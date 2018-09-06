@@ -6,7 +6,7 @@ Material design notify system for WPF applications
 
 - Build Notification project for the .dll
 - Add Notification.dll reference in your application
-- Copy MaterialDesignColor.dll and MaterialDesignThemes.Wpf.dll to your app folder
+- Copy MaterialDesignColor.dll and MaterialDesignThemes.Wpf.dll from build folder to your app folder
 
 - Add namespace
 ```
@@ -23,7 +23,7 @@ private readonly Main _notify = new Main();
 public MainWindow()
 {
     InitializeComponent();
-    **_notify.PrepareWindow();**
+    _notify.PrepareWindow();
 }
 ```
 
