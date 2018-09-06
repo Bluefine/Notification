@@ -32,4 +32,5 @@ public MainWindow()
 _notify.ShowNotify(Main.NotifyType.Error, "Title", "Description");
 ```
 ### Screenshots
-https://i.imgur.com/jRtwbnW.png
+
+![Alt text](https://i.imgur.com/jRtwbnW.png "Optional title")
