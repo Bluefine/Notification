@@ -31,3 +31,5 @@ public MainWindow()
 ```
 _notify.ShowNotify(Main.NotifyType.Error, "Title", "Description");
 ```
+### Screenshots
+https://i.imgur.com/jRtwbnW.png
