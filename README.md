@@ -31,6 +31,13 @@ public MainWindow()
 ```
 _notify.ShowNotify(Main.NotifyType.Error, "Title", "Description");
 ```
+
+**Important**
+Before user close the application you should call 
+```
+_notify.KillWindow();
+```
+if you don't do this process will be still in memory!
 ### Screenshots
 
 ![Alt text](https://i.imgur.com/V594W3V.png "Optional title")
