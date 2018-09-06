@@ -34,3 +34,4 @@ _notify.ShowNotify(Main.NotifyType.Error, "Title", "Description");
 ### Screenshots
 
 ![Alt text](https://i.imgur.com/V594W3V.png "Optional title")
+![Alt text](https://i.imgur.com/zgYcHWv.gif "Optional title")
