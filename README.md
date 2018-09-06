@@ -23,7 +23,7 @@ private readonly Main _notify = new Main();
 public MainWindow()
 {
     InitializeComponent();
-    _notify.PrepareWindow();
+    **_notify.PrepareWindow();**
 }
 ```
 
